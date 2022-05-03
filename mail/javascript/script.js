@@ -17,10 +17,10 @@ login.addEventListener('click',
         }
         console.log(isAllowed);
         if (isAllowed != 0) {
-            //login
+            document.querySelector('#esito-login').innerHTML = `La tua mail e' valida , login in corso`
         }
         else{
-            //inserisci email supportata
+            document.querySelector('#esito-login').innerHTML = `La tua mail non e' valida , riprova con una mail diversa`
         }
     }
 );
