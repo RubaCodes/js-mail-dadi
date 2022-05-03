@@ -18,10 +18,10 @@ login.addEventListener('click',
         console.log(isAllowed);
         //se il contatore e != la mail e' valida, effettuare login
         if (isAllowed != 0) {
-            document.querySelector('#esito-login').innerHTML = `La tua mail e' valida , login in corso`
+            document.querySelector('#esito-login').innerHTML = `La tua mail e' valida , login in corso...`
         }
         else{
-            document.querySelector('#esito-login').innerHTML = `La tua mail non e' valida , riprova con una mail diversa`
+            document.querySelector('#esito-login').innerHTML = `La tua mail non e' valida , riprova!`
         }
     }
 );
