@@ -10,15 +10,13 @@ refreshButton.addEventListener('click',
         document.querySelector('#user-number').innerHTML = `Il tuo numero estratto per te e' ${userNumber}`;
         document.querySelector('#computer-number').innerHTML = `Il  numero estratto per il pc e' ${computerNumber}`;
 
-
-
         // logica vittoria
         if(userNumber > computerNumber){
-            console.log('vittoria user');
+            document.querySelector('#result').innerHTML = `HAI VINTO`;
         } else if(userNumber < computerNumber){
-            console.log('vittoria pc');
+            document.querySelector('#result').innerHTML = `HAI PERSO`;
         }else {
-            console.log('pareggio');
+            document.querySelector('#result').innerHTML = `PAREGGIO`;
         }
     }
 );
