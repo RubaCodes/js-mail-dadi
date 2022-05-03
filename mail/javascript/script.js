@@ -6,12 +6,21 @@ login.addEventListener('click',
     function () {
         const userEmail = document.querySelector('#email').value;
         console.log(userEmail);
+
+        //check occorrezza mail corretta
+        let isAllowed = 0;
         for (let i = 0; i < emailList.length; i++){
-            if(userEmail != emailList[i]){
-            console.log('username errato');
-            }else{
-                console.log('utente loggato');
+            
+            if(userEmail == emailList[i]){
+            isAllowed ++;
             }
+        }
+        console.log(isAllowed);
+        if (isAllowed != 0) {
+            //login
+        }
+        else{
+            //inserisci email supportata
         }
     }
 );
