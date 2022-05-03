@@ -10,12 +10,13 @@ login.addEventListener('click',
         //check occorrezza mail corretta
         let isAllowed = 0;
         for (let i = 0; i < emailList.length; i++){
-            
+            //all'occorrenza della mail corretta, aumenta il contatore 
             if(userEmail == emailList[i]){
             isAllowed ++;
             }
         }
         console.log(isAllowed);
+        //se il contatore e != la mail e' valida, effettuare login
         if (isAllowed != 0) {
             document.querySelector('#esito-login').innerHTML = `La tua mail e' valida , login in corso`
         }
