@@ -3,17 +3,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     padding-top: 50px;
-    background-color: red;
+    background-color: #282a36;
+    color: #8be9fd;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.507); ;
 }
 
 .container {
-    background-color: white;
+    background-color: #6272a4;
     max-width: 80%;
     margin: auto;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.507);
 }
 .box{
     padding: 50px;
@@ -34,3 +39,22 @@ body{
     border-radius: 20px;
     box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.507);
 }
+
+h1{
+    padding: 30px 0;
+    font-size: 70px;
+}
+
+/* button */
+button{
+    padding: 15px 25px;
+    background-color: #f8f8f2b7;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.507);
+}
+button i{
+    font-size: 22px;
+}
+
+/* Dices */
