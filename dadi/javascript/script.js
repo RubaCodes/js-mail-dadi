@@ -8,9 +8,9 @@ console.log(userNumber, computerNumber);
 
 // logica vittoria
 if(userNumber > computerNumber){
-    // vittoria user
+    console.log('vittoria user');
 } else if(userNumber < computerNumber){
-    //vittoria pc
+    console.log('vittoria pc');
 }else {
-    //pareggio
+    console.log('pareggio');
 }
