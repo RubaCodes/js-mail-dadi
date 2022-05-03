@@ -9,8 +9,8 @@ refreshButton.addEventListener('click',
         //cambio faccia dado
         const userDice = document.querySelector('.col.user .dice');
         const computerDice = document.querySelector('.col.pc .dice');
-        userDice.style.backgroundImage = `url('../img/dice-${userNumber}-solid.svg')`;
-        computerDice.style.backgroundImage = `url('../img/dice-${computerNumber}-solid.svg')`;
+        userDice.style.backgroundImage = `url(img/dice-${userNumber}-solid.svg)`;
+        computerDice.style.backgroundImage = `url(img/dice-${computerNumber}-solid.svg)`;
         userDice.style.backgroundSize = 'cover';
         computerDice.style.backgroundSize = 'cover';
         //display del numero sorteggiato
