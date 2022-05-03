@@ -45,6 +45,9 @@ h1{
     font-size: 70px;
 }
 
+h3{
+    font-size: 40px;
+}
 /* button */
 button{
     padding: 15px 25px;
@@ -55,24 +58,4 @@ button{
 }
 button i{
     font-size: 22px;
-}
-
-/* Dices */
-.dice-1{
-    content: "1";
-}
-.dice-2{
-    content: "2";
-}
-.dice-3{
-    content: "3";
-}
-.dice-4{
-    content: "4";
-}
-.dice-5{
-    content: "5";
-}
-.dice-6{
-    content: "6";
 }

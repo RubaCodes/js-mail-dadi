@@ -9,8 +9,9 @@ refreshButton.addEventListener('click',
         //cambio faccia dado
         const userDice = document.querySelector('.col.user .dice');
         const computerDice = document.querySelector('.col.pc .dice');
-        userDice.className = ` dice dice-${userNumber}`;
-        computerDice.className = ` dice dice-${computerNumber}`;
+        userDice.style.backgroundImage = `url('img/dice-${userNumber}-solid.svg')`;
+        computerDice.style.backgroundImage = `url('img/dice-${computerNumber}-solid.svg')`;
+        
         //display del numero sorteggiato
         document.querySelector('#user-number').innerHTML = `Il tuo numero estratto per te e' ${userNumber}`;
         document.querySelector('#computer-number').innerHTML = `Il  numero estratto per il pc e' ${computerNumber}`;
